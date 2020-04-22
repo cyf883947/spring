@@ -10,6 +10,7 @@
 
     <modules>
         <module>spring-ioc-demo</module>
+        <module>spring-beandefition-demo</module>
     </modules>
 
     <properties>
