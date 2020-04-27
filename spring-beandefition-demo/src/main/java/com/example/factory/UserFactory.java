@@ -1,0 +1,15 @@
+package com.example.factory;
+
+import com.example.instatiation.User;
+
+/**
+ * @author YFC
+ * @create 2020-04-27 下午 10:47
+ */
+public interface UserFactory {
+
+    default User createUser(){
+        return User.createUser();
+    }
+
+}
